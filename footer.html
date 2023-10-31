@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- Normaline style -->
+
+    <link rel="stylesheet" href="/styles/normaline.css">
+
+    <!-- General styles -->
+    <link rel="stylesheet" href="./styles/footer.css">
+   
+    <title>Malumotlar</title>
+</head>
+<body>
+    
+    <!-- block styles -->
+    <div class="block">
+        <div class="card">
+            <h3>Ta’lim darajangiz</h3>
+            <h5>Ta’lim olgan joylaringizni kiriting</h5>
+
+            <div class="chekbox">
+              <input type="checkbox" id="chekbox"><label for="chekbox">Ta’lim darajam mavjud emas</label>
+            </div>
+
+            <form>
+                <label for="ismingizni kiriting">Joy nomi*</label><br>
+                <input class="input" type="text" placeholder="Joy nomi"><br>
+
+                <label for="ismingizni kiriting">Daraja*</label><br>
+                <input class="input" type="text" placeholder="daraja"><br>
+
+                <div class="select">
+                  <div class="select1">
+                    <label for="davlat">Boshlangan vaqti*</label><br>
+                    <select  id="davlat">
+                        <option value="davlat">Russion</option>
+                        <option value="davlat">Uzbekiston</option>
+                        <option value="davlat">USA</option>
+                    </select>
+                  </div>
+                
+                  <div class="select2">
+                    <label for="davlat">Tugagan vaqti *</label><br>
+                    <select  id="davlat">
+                        <option value="davlat">Farg'ona</option>
+                        <option value="davlat">Toshkent</option>
+                        <option value="davlat">Xorazim</option>
+                    </select>
+                  </div>
+
+                </div>
+                <div class="select">
+                  <div class="select1">
+                    <label for="davlat">O’zlashtirish *</label><br>
+                    <select  id="davlat">
+                        <option value="davlat">0</option>
+                        <option value="davlat">1</option>
+                        <option value="davlat">2</option>
+                    </select>
+                  </div>
+                
+                  <div class="select2">
+                    <label for="davlat">Eng yuqori baho *</label><br>
+                    <select  id="davlat">
+                        <option value="davlat">Farg'ona</option>
+                        <option value="davlat">Toshkent</option>
+                        <option value="davlat">Xorazim</option>
+                    </select>
+                  </div>
+
+                </div>
+
+                <div class="file">
+                  <label for="file">Diplom rasmi*</label><br>
+                  <input type="text" id="file" placeholder="Import (PDF)">
+                </div>
+
+                
+                  <div class="button">
+                    <button class="ortga">ORTGA</button>
+                    <button class="keyingisi">KEYINGISI</button>
+                  </div>
+
+            </form>
+        </div>
+    
+    </div>
+
+</body>
+</html>
